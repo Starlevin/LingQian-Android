@@ -1,0 +1,32 @@
+# Gradle, Android Studio and local state
+.gradle/
+.gradle-user/
+.kotlin/
+.idea/
+*.iml
+local.properties
+**/build/
+build/
+*.log
+.DS_Store
+Thumbs.db
+
+# Android signing and private account data
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.mobileprovision
+*.env
+.env*
+secrets.properties
+**/credentials.json
+**/auth.json
+
+# Binary outputs live in GitHub Releases, not in the source tree
+dist/
+*.apk
+*.aab
+*.apks
+*.zip
